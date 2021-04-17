@@ -1,0 +1,111 @@
+.main_phukien {
+    width: 1200px;
+    margin: auto;
+    padding-top: 80px;
+}
+.danhmuc_phukien {
+    width: 1200px;
+    margin: auto;
+    height: 370px;
+    background-color: white;
+    padding: 20px 0;
+    border: 1px solid red;
+}
+.heading_phukien {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.heading_phukien .heading_left {
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: red;
+}
+.heading_phukien .heading_right ul {
+    list-style: none;
+    display: flex;
+}
+.heading_phukien .heading_right ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+.heading_phukien .heading_right ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.danhmuc_phukien .list_phukien {
+    display: flex;
+    justify-content: space-around;
+}
+.danhmuc_phukien .list_phukien img {
+    width: 70px;
+    padding: 15px 0;
+}
+.danhmuc_phukien .list_phukien a {
+    font-size: 13px;
+    text-align: center;
+    width: 120px;
+    height: 140px;
+    text-decoration: none;
+    padding: 0 25px;
+}
+.danhmuc_phukien .list_phukien a:hover {
+    border: 1px solid red;
+}
+.sanpham_phukien {
+    width: 1200px;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sanpham_phukien .row {
+    width: 49.5%;
+    height: 480px;  
+    display: flex;
+    justify-content: space-between;
+}
+.sanpham_phukien .row .content {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid red;
+}
+.sanpham_phukien .row .content:hover .info_top p {
+    color: blue;
+}
+.sanpham_phukien .row .content img {
+    width: 96%;
+    padding-top: 5px;
+}
+.sanpham_phukien .row .content .info {
+    height: 200px;
+    padding:20px 20px;
+    text-align: left;
+}
+.sanpham_phukien .row .content .info .info_top {
+    height: 60%;
+}
+.sanpham_phukien .row .content .info .info_bottom {
+    display: flex;
+}
+.info_bottom button {
+    width: 120px;
+    height: 35px;
+    margin: auto;
+    color: #f89406;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #db9634;
+}
+.info_bottom button:hover {
+    background-color: #f89406;
+    color: white;
+    cursor: pointer;
+}
+.sanpham_phukien .row .content .info span {
+    color:red;
+}

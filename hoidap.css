@@ -1,0 +1,211 @@
+.main_hoidap {
+    width: 1200px;
+    height: 1160px;
+    margin: auto;
+    padding-top: 80px;
+}
+a {
+    text-decoration: none;
+    color: rgb(82, 77, 77);
+}
+.content_hoidap {
+    height: 1000px;
+    display: flex;
+}
+.content_left_hoidap {
+    height:1104px;
+    background-color: white;
+    flex:0.9;
+    margin-right: 10px;
+    overflow-y: auto;
+}
+.content_left_hoidap h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 18px;
+}
+.content_left-topic {
+    margin-top: 10px;
+    border-top: 1px solid rgb(177, 166, 166);
+    background: linear-gradient(to top, #99ccff 0%, #ffcccc 100%);
+}
+.content_left-topic li {
+    list-style: none;
+    margin: 1px 0;
+    border-bottom: 1px solid rgb(177, 166, 166);
+    position: relative;
+}
+.main_topic {
+    z-index: 1;
+    width: 100%;    
+    background: white;
+    top: 57px;
+    display: none;
+}
+.main_topic a {
+    display: block;
+    padding: 15px;
+    border: 1px solid rgb(177, 166, 166);
+}
+.main_topic::before {
+    content: " ";
+    border: 15px solid;
+    border-color: transparent transparent white transparent;
+    position: absolute;
+    top: 27px;
+    left: 80px;
+}
+.main_topic a:hover {
+    color: blue;
+}
+.content_left-topic li label {
+    display:flex;
+    position: relative;
+    padding: 3px;
+}
+.content_left-topic li label img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: -2px;
+}
+.content_left-topic li label p {
+    margin: 16px;
+}
+.content_left-topic li label p:hover a {
+    color: blue;
+}
+.content_left-topic li label .fa-chevron-circle-down {
+    width: 45px;
+    height: 30px;
+    font-size: 120%;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    cursor: pointer;
+    text-align: center;
+}
+.content_left-question {
+    display: flex;
+    flex-direction: column;
+}
+.question {
+    display: flex;
+    margin: 13.5px 0;
+    background-color: white;
+}
+.question label {
+    width: 20%;
+}
+.question label img {
+    width: 100%;
+    padding-top: 10px;
+}
+.question_info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.question_info a {
+    padding: 5px 0;
+}
+.question_info a:last-child {
+    font-size: 13px;
+    color: blue;
+}
+.content_right_hoidap {
+    height: 1400px;
+    flex:2;
+    color: #333;
+}
+.content_right_hoidap h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px;
+    border-bottom: 1px solid blue;
+}
+.content_right-search {
+    background: wheat;
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+.content_right-search input {
+    margin: auto 0 auto 10px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    padding-left: 35px;
+}
+.content_right-search button {
+    margin: auto 0 auto 0;
+    height: 40px;
+    width: 20%;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background: #288ad6;
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: #f1f1f1;
+    font-size: 110%;
+}
+.content_right-search i {
+    position: absolute;
+    top: 41%;
+    left: 20px;
+    font-size: 125%;
+    color: darkgray;    
+}
+.content_right-list {
+    background-color: aliceblue;
+    height: 940px;
+    overflow-y: scroll;
+}
+.show_hide-list {
+    display: none;
+}
+.content_right-list .h3 {
+    height: 40px;
+    background: #288ad6;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #f1f1f1;
+    position: relative;
+    margin: 0 15px 15px;
+}
+.content_right-list .h3::before {
+    content: " ";
+    border: 8px solid;
+    border-color: #f1f1ff transparent transparent transparent;
+    position: absolute;
+    top: 45%;
+    right: 39%;
+}
+.right-list_cont {
+    display: flex;
+    border-bottom: 1px solid blue;
+    padding: 10px 0;
+}
+.right-list_cont img {
+    width: 180px;
+    height: 105px;
+    margin-right: 17px;
+}
+.right-list_cont label {
+    font-size: 14px;
+}
+.right-list_cont label h3 {
+    padding-bottom: 9px;
+    color: black;
+}
+.right-list_cont label p {
+   padding-bottom: 9px;
+}
+.right-list_cont label p:last-child {
+    color: rgb(78, 78, 78);
+}

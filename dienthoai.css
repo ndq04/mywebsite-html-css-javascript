@@ -1,0 +1,258 @@
+.main_dienthoai {
+    width: 1200px;
+    margin: auto;
+    height: 4330px;
+    padding-top: 80px;
+}
+.main_dienthoai span {
+    font-weight: bold;
+    color: black;
+}
+.content1_dienthoai {
+  
+    width: 1200px;
+    height: 150px;
+    background-color: white;
+}
+.content1_dienthoai ul li {
+    list-style: none;
+    display: inline-table;
+    width: 15%;
+    height: 60px;
+    text-align: center;
+    margin: 20px 5px;
+}
+.content1_dienthoai ul li a img {
+    width: 40%;
+    border: 1px solid rgb(199, 171, 171);
+    border-radius: 50%;
+}
+.content1_dienthoai ul li a img:hover {
+    border: 1px solid black;
+}
+.slide_dienthoai {
+    width: 1200px; 
+    cursor: pointer;
+}
+.chuyenslide_dt {
+    width: 100%;
+    display: none;
+}
+.slide_dt1 {
+    display: block;
+}
+.chuyenslide_dt img {
+    width: 100%;
+}
+.control_dienthoai {
+    position: absolute;
+    display: flex;
+    top: 80%;
+    left: 45%;
+}
+.control_dienthoai li {
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.slide_active {
+    background: black;
+}
+.content2_dienthoai .content3_dienthoai {
+    margin-top: 20px;
+    width: 1200px;
+    height: 90px;
+    background-color: white;
+}
+.main_dienthoai #banner {
+    margin: 20px 0;
+}
+.content3_dienthoai {
+    margin: 20px 0;
+}
+.content3_dienthoai ul li {
+    list-style: none;
+    display: inline-table;
+}
+.content3 ul li:hover {
+    box-shadow: 0px 5px 10px 5px rgb(214, 211, 204);
+}
+.content3_dienthoai img {
+    margin: 5px;
+    width: 150px;
+    height: 30px;
+}
+.content4_dienthoai {
+    width: 1200px;
+    height: 2000px;
+    color: rgb(92, 84, 84);
+}
+.content4_dienthoai .left {
+    width: 17%;
+    height: 2000px;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+.left .boloc {
+    height: 105px;
+    background: linear-gradient(to top, #99ccff 0%, #ffcccc 100%);
+    margin-bottom: 10px;
+    position: relative;
+}
+.left .boloc h2 {
+    color: red;
+    padding: 10px;
+}
+.left .boloc button {
+    position: absolute;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 130%;
+    right: 18px;
+    bottom: 27px;
+}
+.left .boloc button:hover {
+    color: red;
+}
+.left .boloc input {
+    height: 35px;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid #cecece;
+    box-shadow: inset 0 1px 4px 0 rgba(0,0,0,.22);
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.left table{
+    text-align: left;
+    margin: 0 20px;
+    position: relative;
+}
+.left span{
+    text-transform: uppercase;
+    padding-right: 30px;
+    color: red;
+    cursor: pointer;
+    line-height: 30px;
+}
+.left_topic i {
+    font-size: 120%;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left: 325px;
+    color: black;
+    display:none;
+}
+.left:hover .left_topic i {
+    display: inline-block;
+}
+.left table tr td{
+    padding: 10px 0;
+}
+.left table,
+.left table tr td input,
+.left table tr td label{
+    cursor: pointer;
+}
+.left table tr td label:hover{
+    color: red;
+    font-weight: bold;
+}
+.left_topic {
+    background: linear-gradient(to top, #99ccff 0%, #ffcccc 100%);
+    text-align: center;
+    padding: 15px 0 10px 0;
+    border-bottom: 1px solid red;
+}
+.content4_dienthoai .right {
+    width: 81%;
+    height: 3480px;
+    float: left;
+    margin-left: 5px;
+}
+.main_dienthoai .banner img {
+    width: 100%;
+    height: 100px;
+    margin: 5px 5px;
+}
+.right .row {
+    width: 100%;
+    margin: 10px 0 10px 5px;
+    height: 550px;
+    background-color: white;
+}
+.right .row .anh {
+    width: 24%;
+    float: left;
+    height: 510px;
+    padding-top: 30px;
+    transition: all .5s;
+    margin-left: 8px;
+}
+.right .row .anh:hover {
+    box-shadow: 0px 5px 10px 5px rgb(214, 211, 204);
+    cursor: pointer;
+}
+.right .row .anh:hover p span:first-child {
+    color: rgb(48, 169, 199);
+}
+.right .row .anh:hover .bottom {
+    color: rgb(48, 169, 199);
+}
+.right .row .anh:hover .star {
+    color: yellow;
+}
+.right .row .anh img {
+    transition: all .5s;
+    padding-bottom: 30px;
+}
+.right .row .anh:hover img {
+    transform: translateY(-20px);
+}
+.right .top {
+    color: red;
+    margin-left: 20px;
+}
+.right .top span {
+    color: rgb(65, 61, 61);
+    font-size: 15px;
+}
+.right .bottom {
+    font-size: 13px;
+    height: 200px;
+    color: rgb(65, 61, 61);
+    margin-left: 20px;
+}
+.right .tt {
+    height: 120px;
+}
+.right .info {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.right #xem {
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid blue;
+    color: blue;
+    margin-left: 50px;
+}
+.right .row .anh:hover #xem {
+    color: #f1f1ff;
+    background-color: blue;
+}
+.right .left table tr td .input{
+    float: left;    
+}
